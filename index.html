@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Pong Game</title>
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      font-size: 24px;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-image: url('img/img01.jpg');
+      background-size: cover;
+    }
+
+    .menu-bar {
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: rgba(182, 58, 182, 0.5); 
+      width: 100%;
+      padding: 10px 0;
+      text-align: center;
+
+    }
+
+    .menu-bar h1 {
+      color: white;
+      margin: 0;
+    }
+  </style>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+</head>
+
+<body>
+  <div class="menu-bar">
+    <h1>Pong Game</h1>
+  </div>
+  <script src="sketch.js"></script>
+</body>
+
+</html>
