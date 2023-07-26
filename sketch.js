@@ -1,5 +1,5 @@
 let placar;
-let textoInicio = "Pressione Enter para Começar";
+let textoInicio = "Pressione Enter para iniciar";
 
 function exibirTextoInicio() {
   fill(255);
